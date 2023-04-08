@@ -1,71 +1,71 @@
 ###################
-What is CodeIgniter
+Introduction
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+This project is a e-grocer website that features different product category like a convenince store.
+It is also our final project requirement on the course subject Human Computer Interaction 2.
 
 *******************
-Release Information
+Technologies Used
 *******************
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+1. Back-end Framework
+    - `CodeIgniter 3 <https://codeigniter.com/>`_
+
+2. Front-end Framework
+    - `Bootstrap 5 <https://getbootstrap.com/>`_
+    - `Lottiefiles <https://lottiefiles.com/>`_
 
 **************************
-Changelog and New Features
-**************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
-
-*******************
-Server Requirements
-*******************
-
-PHP version 5.6 or newer is recommended.
-
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
 Installation
-************
+**************************
 
-Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
-of the CodeIgniter User Guide.
+Note: Server Requirements: PHP version 8.1.
 
-*******
-License
-*******
+Step-by-step Installation:
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+1. For github clone
+    - Open your htdocs folder and open the terminal
+    - Paste this code on the terminal: git clone https://github.com/rggoria/GoShopping.git
+    - Run your preferred browser then go to phpMyAdmin
+    - Create a new database named: goshopping
+    - Then click the Import on the navigation
+    - The file is on the root folder that has a name: goshopping.sql
+    - Click the Choose File input and navigate the file
+    - Then go down on the webpage then click the Import button and wait
+    - You can now run the project by input on the on the url: localhost/goshopping
+    Note: make sure your php server is running
 
-*********
-Resources
-*********
+2. For download zip
+    - Extract the zip file
+    - Then open the folder then you can see the filename: GoShopping-main
+    - Rename the folder: GoShopping-main into GoShopping
+    - Move the GoShopping file on the htdocs folder
+    - Run your preferred browser then go to phpMyAdmin
+    - Create a new database named: goshopping
+    - Then click the Import on the navigation
+    - The file is on the root folder that has a name: goshopping.sql
+    - Click the Choose File input and navigate the file
+    - Then go down on the webpage then click the Import button and wait
+    - You can now run the project by input on the on the url: localhost/goshopping
+    Note: make sure your php server is running
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+**************************
+Features
+**************************
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+1. Webpages that can only accessed by user, admin
+2. Storefront
+3. Security Measures and Mechanisms
+4. Cataloging
+5. Site Management
 
-***************
-Acknowledgement
-***************
+**************************
+Contributors
+**************************
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+The Group Name is BetaAce that provide the following members:
+
+1. Harold Anonuevo
+2. Ram Emerson Goria
+3. Christian Shi
