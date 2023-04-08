@@ -20,7 +20,7 @@ Technologies Used
 Installation
 **************************
 
-Note: Server Requirements: PHP version 8.1.
+Note: Server Requirements: PHP version 7.4 up to 8.1.
 
 Step-by-step Installation:
 
@@ -28,26 +28,26 @@ Step-by-step Installation:
     - Open your htdocs folder and open the terminal
     - Paste this code on the terminal: git clone https://github.com/rggoria/ci-betaace.git
     - Run your preferred browser then go to phpMyAdmin
-    - Create a new database named: ci_betaace
+    - Create a new database named: ci-betaace
     - Then click the Import on the navigation
-    - The file is on the root folder that has a name: ci_betaace.sql
+    - The file is on the root folder that has a name: ci-betaace.sql
     - Click the Choose File input and navigate the file
     - Then go down on the webpage then click the Import button and wait
-    - You can now run the project by input on the on the url: localhost/ci_betaace
+    - You can now run the project by input on the on the url: localhost/ci-betaace
     Note: Make sure your php server is running
 
 2. For download zip
     - Extract the zip file
-    - Then open the folder then you can see the filename: GoShopping-main
-    - Rename the folder: GoShopping-main into GoShopping
-    - Move the GoShopping file on the htdocs folder
+    - Then open the folder then you can see the filename: ci-betaace-main
+    - Rename the folder: ci-betaace-main into ci-betaace
+    - Move the ci-betaace file on the htdocs folder
     - Run your preferred browser then go to phpMyAdmin
-    - Create a new database named: ci_betaace
+    - Create a new database named: ci-betaace
     - Then click the Import on the navigation
-    - The file is on the root folder that has a name: ci_betaace.sql
+    - The file is on the root folder that has a name: ci-betaace.sql
     - Click the Choose File input and navigate the file
     - Then go down on the webpage then click the Import button and wait
-    - You can now run the project by input on the on the url: localhost/ci_betaace
+    - You can now run the project by input on the on the url: localhost/ci-betaace
     Note: Make sure your php server is running
 
 
