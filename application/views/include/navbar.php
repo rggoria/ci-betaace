@@ -6,7 +6,7 @@
       </a>
     </div>
     
-    <form class="d-flex my-auto w-50" method="post" action="http://localhost/ci_betaace/index.php/Search/">
+    <form class="d-flex my-auto w-50" method="post" action="http://localhost/ci-betaace/index.php/Search/">
       <input class="form-control me-2" name="search" type="search" placeholder="Search..." aria-label="Search" value="<?php echo isset($_POST['search']) ? $_POST['search'] : ''; ?>">
       <button class="btn text-light" type="submit">Search</button>
     </form>

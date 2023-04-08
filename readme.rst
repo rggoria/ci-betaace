@@ -26,7 +26,7 @@ Step-by-step Installation:
 
 1. For github clone
     - Open your htdocs folder and open the terminal
-    - Paste this code on the terminal: git clone https://github.com/rggoria/ci_betaace.git
+    - Paste this code on the terminal: git clone https://github.com/rggoria/ci-betaace.git
     - Run your preferred browser then go to phpMyAdmin
     - Create a new database named: ci_betaace
     - Then click the Import on the navigation
