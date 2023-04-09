@@ -24,7 +24,7 @@ Note: Server Requirements: PHP version 7.4 up to 8.1.
 
 Step-by-step Installation:
 
-1. For github clone
+1. For Github Clone
     - Open your htdocs folder and open the terminal
     - Paste this code on the terminal: git clone https://github.com/rggoria/ci-betaace.git
     - Run your preferred browser then go to phpMyAdmin
@@ -34,10 +34,11 @@ Step-by-step Installation:
     - Click the Choose File input and navigate the file
     - Then go down on the webpage then click the Import button and wait
     - You can now run the project by input on the on the url: localhost/ci-betaace
-    Note: Make sure your php server is running
 
-2. For download zip
-    - Extract the zip file
+Note: Make sure your php server is running
+
+2. For Download ZIP
+    - Extract the ZIP file
     - Then open the folder then you can see the filename: ci-betaace-main
     - Rename the folder: ci-betaace-main into ci-betaace
     - Move the ci-betaace file on the htdocs folder
@@ -48,7 +49,8 @@ Step-by-step Installation:
     - Click the Choose File input and navigate the file
     - Then go down on the webpage then click the Import button and wait
     - You can now run the project by input on the on the url: localhost/ci-betaace
-    Note: Make sure your php server is running
+
+Note: Make sure your php server is running
 
 
 **************************
